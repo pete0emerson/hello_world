@@ -2,37 +2,11 @@ I'm going to write "Hello World" ... using a mess of different technologies, jus
 
 Here are the technologies I expect to leverage, with little or no experience with them:
 
-<table>
-  <tr>
-    <th>python</th>
-    <td>http://www.python.org/</td>
-  </tr>
-  <tr>
-    <th>paste and nose for testing</th>
-    <td>http://webpy.org/cookbook/testing_with_paste_and_nose/</td>
-  </tr>
-  <tr>
-    <th>sphinx for documentation</th>
-    <td>http://sphinx.pocoo.org/</td>
-  </tr>
-  <tr>
-    <th>redis</th>
-    <td>http://redis.io</td>
-  </tr>
-  <tr>
-    <th>zeromq</th>
-    <td>http://www.zeromq.org</td>
-  </tr>
-  <tr>
-    <th>web.py</th>
-    <td>http://webpy.org</td>
-  </tr>
-  <tr>
-    <th>gunicorn</th>
-    <td>http://gunicorn.org/ http://nicolas314.wordpress.com/tag/web-py/</td>
-  </tr>
-  <tr>
-    <th>nginx</th>
-    <td>http://www.nginx.org/</td>
-  </tr>
-</table>
+python - The programming language - http://www.python.org/
+paste and nose - for testing - http://webpy.org/cookbook/testing_with_paste_and_nose/
+sphinx - for documentation - http://sphinx.pocoo.org/
+redis - NoSQL database - http://redis.io
+zeromq - easy component communication library - http://www.zeromq.org
+web.py - simple web framework - http://webpy.org
+gunicorn - WSGI HTTP server - http://gunicorn.org/ http://nicolas314.wordpress.com/tag/web-py/
+nginx - HTTP server - http://www.nginx.org/
