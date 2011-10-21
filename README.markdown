@@ -24,7 +24,7 @@ DISTRIB_DESCRIPTION="Ubuntu 11.04"
 
 # Configuration
 
-```bash
+```shell
 # apt-get update
 # apt-get upgrade
 # apt-get install python-setuptools
