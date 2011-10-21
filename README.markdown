@@ -2,19 +2,20 @@ I'm going to write "Hello World" ... using a mess of different technologies, jus
 
 Here are the technologies I expect to leverage, with little or no experience with them:
 
-ubuntu - The Linux distribution - http://www.ubuntu.com/
-python - The programming language - http://www.python.org/
-paste and nose - for testing - http://webpy.org/cookbook/testing_with_paste_and_nose
-sphinx - for documentation - http://sphinx.pocoo.org/
-redis - NoSQL database - http://redis.io
-zeromq - easy component communication library - http://www.zeromq.org
-web.py - simple web framework - http://webpy.org
-gunicorn - WSGI HTTP server - http://gunicorn.org/ http://nicolas314.wordpress.com/tag/web-py/
-nginx - HTTP server - http://www.nginx.org/
+* ubuntu - The Linux distribution - http://www.ubuntu.com/
+* python - The programming language - http://www.python.org/
+* paste and nose - for testing - http://webpy.org/cookbook/testing_with_paste_and_nose
+* sphinx - for documentation - http://sphinx.pocoo.org/
+* redis - NoSQL database - http://redis.io
+* zeromq - easy component communication library - http://www.zeromq.org
+* web.py - simple web framework - http://webpy.org
+* gunicorn - WSGI HTTP server - http://gunicorn.org/ http://nicolas314.wordpress.com/tag/web-py/
+* nginx - HTTP server - http://www.nginx.org/
 
 # The server
 
-```$ cat /etc/lsb-release
+```bash
+$ cat /etc/lsb-release
 DISTRIB_ID=Ubuntu
 DISTRIB_RELEASE=11.04
 DISTRIB_CODENAME=natty
@@ -23,7 +24,8 @@ DISTRIB_DESCRIPTION="Ubuntu 11.04"
 
 # Configuration
 
-```# apt-get update
+```bash
+# apt-get update
 # apt-get upgrade
 # apt-get install python-setuptools
 # easy_install web.py
