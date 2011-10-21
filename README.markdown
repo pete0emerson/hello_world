@@ -14,7 +14,7 @@ Here are the technologies I expect to leverage, with little or no experience wit
 
 # The server
 
-```bash
+```shell
 $ cat /etc/lsb-release
 DISTRIB_ID=Ubuntu
 DISTRIB_RELEASE=11.04
