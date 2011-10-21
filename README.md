@@ -22,9 +22,11 @@ DISTRIB_CODENAME=natty
 DISTRIB_DESCRIPTION="Ubuntu 11.04"
 ```
 
-# Configuration
+# Server Configuration
 
 ```bash
+#!/bin/bash
+
 apt-get update
 apt-get upgrade
 apt-get install python-setuptools
