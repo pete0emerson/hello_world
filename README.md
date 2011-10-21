@@ -24,4 +24,4 @@ DISTRIB_DESCRIPTION="Ubuntu 11.04"
 
 # Server Configuration
 
-Run the included server_configuration.sh script
+Run the included [server_configuration.sh](https://github.com/pete0emerson/hello_world/blob/master/server_configuration.sh) script
