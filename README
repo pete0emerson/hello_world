@@ -3,7 +3,7 @@ I'm going to write "Hello World" ... using a mess of different technologies, jus
 Here are the technologies I expect to leverage, with little or no experience with them:
 
 python - The programming language - http://www.python.org/
-paste and nose - for testing - http://webpy.org/cookbook/testing_with_paste_and_nose/
+paste and nose - for testing - http://webpy.org/cookbook/testing_with_paste_and_nose
 sphinx - for documentation - http://sphinx.pocoo.org/
 redis - NoSQL database - http://redis.io
 zeromq - easy component communication library - http://www.zeromq.org
