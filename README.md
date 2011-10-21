@@ -26,3 +26,28 @@ DISTRIB_DESCRIPTION="Ubuntu 11.04"
 
 Run the included [server_configuration.sh](https://github.com/pete0emerson/hello_world/blob/master/server_configuration.sh) script. This will take a bare server, bring it up to
 date with the latest Ubuntu packages, and then install the necessary software listed above.
+
+# Current status
+
+There is a very simple API that replies with Hello, world! to every request, and a nose test to
+go along with it:
+
+```shell
+$ python api.py
+http://0.0.0.0:8080/
+
+# In another window ...
+
+$ curl localhost:8080/test
+Hello, world!
+
+# In the original window ...
+127.0.0.1:63077 - - [21/Oct/2011 00:00:00] "HTTP/1.1 GET /test" - 200 OK
+
+$ WEBPY_ENV=test nosetests
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.174s
+
+OK
+```
